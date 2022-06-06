@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="./snake.css">
+
+</head>
+<body>
+
+    <canvas id="gameArea" width="400" height="400"></canvas>
+    
+    <h1 class="pts" id="pt">0</h1>
+    <h1 class="pts" id="rec">0</h1>
+    
+<div id="btn">
+    
+    <input type="button" onclick="esquerda()" id="esquerda" value="Esquerda" />
+    
+    <input type="button" onclick="cima()" id="cima" value="Cima" />
+    
+    <input type="button" onclick="direita ()" id="direita" value="Direita" />
+    
+    <input type="button" onclick="baixo()" id="baixo" value="Baixo" />
+    
+</div>
+
+<div id="regras">
+    <h1 id="reg">Regras</h1>
+    <p>1 - pegar o ponto vermelho faz com que você cresca 1 quadrado</p>
+    <p>2 - Se você se colidir contra você mesmo, o jogo reiniciará altomaticamente</p>
+    <p>3 - Se você estiver em uma direção e mudar para o outro se fazer curva, o jogo reiniciará</p>
+    <p>4 - No computador, você pode controlar a cobra com as setas</p>
+    <p>5 - Caso seu teclado seja um mini slim, use os botões</p>
+    <p>6 - No celular você controla com os botões</p>
+    <p>7 - Jogo criado com a finalidade de treinar minhas habilidades com o JavaScript, pode contar algum bug, caso</p>
+    <p>8 - O jogo tem uma armadilha, cuidado!!!</p>
+</div>
+
+<script src="./snake.js"></script>
+</body>
+</html>

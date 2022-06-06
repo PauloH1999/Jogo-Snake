@@ -1,0 +1,71 @@
+
+.pts{
+    position: absolute;
+}
+#pt{
+    top: 410px;
+}
+#rec{
+    top: 450px;
+}
+
+#btn{
+    margin-left: 180px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+
+input{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    border: none;
+    background: #333;
+    color: white;
+    font-size: 15px;
+    border-radius: 100px;
+}
+
+#cima{
+    left: 50px;
+    top: -5px;
+}
+#baixo{
+    left: 50px;
+    bottom: -5px;
+}
+#esquerda{
+    top: 50px;
+    left: -5px;
+}
+#direita{
+    top:50px;
+    right: -5px;
+}
+#cima:hover{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0);
+}
+#baixo:hover{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0);
+}
+#esquerda:hover{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0);
+}
+#direita:hover{
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0); 
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 12px 10px 10px rgba(0,0,0,0);
+}
+
+#reg{
+    font-size: 25px;
+}
+#regras{
+    top: 5px;
+    position: relative;
+}
